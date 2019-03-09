@@ -1,20 +1,26 @@
 # Create a table in Azure Data Studio
 
+Create a customers table with the following variables in [schema](https://docs.microsoft.com/de-de/dotnet/framework/data/adonet/sql/ownership-and-user-schema-separation-in-sql-server) `dbo` (the steps are adapted from this [Microsoft tutorial](https://docs.microsoft.com/de-de/sql/azure-data-studio/quickstart-sql-database?view=sql-server-2017):
 
+- CustomerId 
+- Name
+- Location
+- Sales
+
+Set the variable `CustomerId`as the primary key column.
+
+1) Right-click on your Azure Data Studio in the SERVERS sidebar and select New Query.
+2) Paste this SQL into the query editor.
 
 ```{sql}
--- Create a new table called 'Customers' in schema 'dbo'
--- Drop the table if it already exists
-IF OBJECT_ID('dbo.Customers', 'U') IS NOT NULL
-DROP TABLE dbo.Customers
-GO
--- Create the table in the specified schema
 CREATE TABLE dbo.Customers
 (
-   CustomerId        INT    NOT NULL   PRIMARY KEY, -- primary key column
+   CustomerId         INT    NOT NULL   PRIMARY KEY,
    Name      [NVARCHAR](50)  NOT NULL,
    Location  [NVARCHAR](50)  NOT NULL,
-   Email     [NVARCHAR](50)  NOT NULL
+   Sales     INT             NOT NULL
 );
 GO
 ```
+
+3) From the toolbar, select Run. Notifications appear in the MESSAGES pane showing query progress.
