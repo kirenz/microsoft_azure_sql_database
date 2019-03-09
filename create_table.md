@@ -33,7 +33,7 @@ GO
 
 ### Insert rows into the table 'Customers'
 
-Replace the previous query with this one and select Run.
+Next, replace the previous query with this one and select Run.
 
 ```{sql}
 INSERT INTO dbo.Customers
@@ -48,7 +48,7 @@ GO
 
 ### View the result
 
-Select rows from table 'Customers'. Replace the previous query with this one and select Run. Select rows from table
+Finally, we want to select rows from table 'Customers'. Therefore, replace the previous query with this one and select Run. 
 
 ```{sql}
 'Customers'
