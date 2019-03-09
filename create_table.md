@@ -1,13 +1,15 @@
 # Create a table in Azure Data Studio
 
-Create a customers table with the following variables in [schema](https://docs.microsoft.com/de-de/dotnet/framework/data/adonet/sql/ownership-and-user-schema-separation-in-sql-server) `dbo` (the steps are adapted from this [Microsoft tutorial](https://docs.microsoft.com/de-de/sql/azure-data-studio/quickstart-sql-database?view=sql-server-2017):
+*The following tutorial is based on this [Microsoft article](https://docs.microsoft.com/de-de/sql/azure-data-studio/quickstart-sql-database?view=sql-server-2017).*
+
+Create a customers table with the following variables in [schema](https://docs.microsoft.com/de-de/dotnet/framework/data/adonet/sql/ownership-and-user-schema-separation-in-sql-server) `dbo`: 
 
 - CustomerId 
 - Name
 - Location
 - Sales
 
-Set the variable `CustomerId`as the primary key column.
+and set the variable `CustomerId`as the primary key column.
 
 1) Right-click on your Azure Data Studio in the SERVERS sidebar and select New Query.
 2) Paste this SQL into the query editor.
