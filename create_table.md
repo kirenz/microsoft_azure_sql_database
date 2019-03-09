@@ -51,7 +51,6 @@ GO
 Finally, we want to select rows from table 'Customers'. Therefore, replace the previous query with this one and select Run. 
 
 ```{sql}
-'Customers'
 SELECT * FROM dbo.Customers;
 ```
 
