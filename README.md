@@ -4,3 +4,11 @@ Azure SQL Database is a general-purpose relational database-as-a-service (DBaaS)
 
 
 [Azure SQL Database Documentation](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview)
+
+## Azure Data Studio
+
+[Quickstart: Use Azure Data Studio to connect and query Azure SQL database](https://docs.microsoft.com/de-de/sql/azure-data-studio/quickstart-sql-database?view=sql-server-2017)
+
+## Create database objects
+
+[Tutorial: Use the Transact-SQL editor to create database objects](https://docs.microsoft.com/de-de/sql/azure-data-studio/tutorial-sql-editor?view=sql-server-2017)
