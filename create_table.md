@@ -37,7 +37,7 @@ Next, replace the previous query with this one and select Run.
 
 ```{sql}
 INSERT INTO dbo.Customers
-   ([CustomerId],[Name],[Location],[Sales])
+   ([CustomerId],[Name],[City],[Country],[Sales])
 VALUES
    ( 1, N'Alexander', N'Stuttgart', N'Germany', 1000),
    ( 2, N'Sarah', N'London', N'UK', 500),
